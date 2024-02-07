@@ -7,7 +7,7 @@ import face_recognition
 import numpy as np
 from datetime import datetime
 
-path='dbd'
+path='dbd' #create a raw file and give the absolute or relative path of file 
 images=[]
 classnames=[]
 mylist=os.listdir(path)
